@@ -9,8 +9,8 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'pk2psp@gmail.com',
-      href: 'mailto:pk2psp@gmail.com',
+      value: 'p.k.karn786@gmail.com',
+      href: 'mailto:p.k.karn786@gmail.com',
     },
     {
       icon: Linkedin,
@@ -75,7 +75,7 @@ const ContactSection = () => {
             style={{ animationDelay: '0.6s' }}
           >
             <Button size="lg" className="animate-glow" asChild>
-              <a href="mailto:pk2psp@gmail.com">
+              <a href="mailto:p.k.karn786@gmail.com">
                 <Mail className="mr-2 h-5 w-5" />
                 Send me an email
               </a>
