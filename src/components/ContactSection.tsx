@@ -33,7 +33,7 @@ const ContactSection = () => {
       <div ref={ref} className="container mx-auto px-4 relative">
         <div className={`text-center mb-16 ${isInView ? 'animate-fade-up' : 'opacity-0'}`}>
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Get in <span className="text-gradient">Touch</span>
+            <span className="text-foreground">Get in</span> <span className="text-gradient">Touch</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
             Have a project in mind or want to collaborate? Let's connect!
@@ -61,7 +61,7 @@ const ContactSection = () => {
                 </div>
                 <div className="flex-1">
                   <p className="text-sm text-muted-foreground">{link.label}</p>
-                  <p className="font-semibold group-hover:text-primary transition-colors duration-300">
+                  <p className="font-semibold text-foreground group-hover:text-primary transition-colors duration-300">
                     {link.value}
                   </p>
                 </div>

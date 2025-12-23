@@ -33,7 +33,7 @@ const AboutSection = () => {
       >
         <div className={`text-center mb-16 ${isInView ? 'animate-fade-up' : 'opacity-0'}`}>
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            About <span className="text-gradient">Me</span>
+            <span className="text-foreground">About</span> <span className="text-gradient">Me</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
             A passionate developer who thrives on building innovative solutions 
@@ -57,7 +57,7 @@ const AboutSection = () => {
                   <item.icon className="h-6 w-6 text-primary" />
                 </div>
                 
-                <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
+                <h3 className="text-xl font-semibold mb-2 text-foreground">{item.title}</h3>
                 
                 {item.link ? (
                   <a 
