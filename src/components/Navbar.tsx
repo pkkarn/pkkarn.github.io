@@ -50,7 +50,7 @@ const Navbar = () => {
               </a>
             ))}
             <Button size="sm" asChild>
-              <a href="mailto:pk2psp@gmail.com">Hire Me</a>
+              <a href="mailto:p.k.karn786@gmail.com">Contact Me</a>
             </Button>
           </div>
 
@@ -81,7 +81,7 @@ const Navbar = () => {
               </a>
             ))}
             <Button className="w-full mt-4" asChild>
-              <a href="mailto:pk2psp@gmail.com">Hire Me</a>
+              <a href="mailto:p.k.karn786@gmail.com">Contact Me</a>
             </Button>
           </div>
         )}

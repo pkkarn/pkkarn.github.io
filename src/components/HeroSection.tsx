@@ -55,7 +55,7 @@ const HeroSection = () => {
           className="text-5xl md:text-7xl font-bold mb-6 animate-fade-up [animation-fill-mode:forwards]"
           style={{ animationDelay: '0.4s', opacity: 0 }}
         >
-          Hi, I'm <span className="text-gradient">PK Karn</span>
+          <span className="text-foreground">Hi, I'm</span> <span className="text-gradient">PK Karn</span>
         </h1>
         
         <p 
@@ -74,7 +74,7 @@ const HeroSection = () => {
             <a href="#projects">View My Work</a>
           </Button>
           <Button size="lg" variant="outline" className="border-border bg-card/50 hover:bg-card" asChild>
-            <a href="mailto:pk2psp@gmail.com">
+            <a href="mailto:p.k.karn786@gmail.com">
               <Mail className="mr-2 h-4 w-4" />
               Get in Touch
             </a>
