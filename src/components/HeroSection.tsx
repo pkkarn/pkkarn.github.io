@@ -1,6 +1,6 @@
 import { useParallax } from '@/hooks/useParallax';
 import { Button } from '@/components/ui/button';
-import { ChevronDown, Mail, Linkedin } from 'lucide-react';
+import { ChevronDown, Mail, Linkedin, Github } from 'lucide-react';
 import heroBg from '@/assets/hero-bg.jpg';
 
 const HeroSection = () => {
@@ -92,6 +92,14 @@ const HeroSection = () => {
             className="p-3 rounded-full bg-card border border-border hover:border-primary hover:bg-primary/10 transition-all duration-300"
           >
             <Linkedin className="h-5 w-5 text-foreground" />
+          </a>
+          <a
+            href="https://github.com/pkkarn"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-3 rounded-full bg-card border border-border hover:border-primary hover:bg-primary/10 transition-all duration-300"
+          >
+            <Github className="h-5 w-5 text-foreground" />
           </a>
           <a
             href="https://blog.logchit.com"
