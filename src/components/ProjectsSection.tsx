@@ -3,86 +3,48 @@ import ProjectCard from './ProjectCard';
 
 const projects = [
   {
-    title: 'Graph Visualizer Pro',
-    description: 'An interactive graph visualization tool built with Ant G6 for complex network analysis and data representation.',
-    tags: ['Vue.js', 'Ant G6', 'TypeScript'],
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
+    title: 'Game of Evolution (GOE)',
+    description: 'A comprehensive framework to master discipline and consistency through a gamified system of "yugas" and target points.',
+    tags: ['React', 'Supabase', 'Tailwind CSS'],
+    image: '/projects/goe-framework.png',
     liveUrl: '#',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/pkkarn/GOE_SUPABASE',
   },
   {
-    title: 'CodeChit Blog Platform',
-    description: 'A technical blog platform with VuePress for sharing insights about web development and programming.',
-    tags: ['VuePress', 'Markdown', 'Vue.js'],
-    image: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=600&h=400&fit=crop',
-    liveUrl: 'https://codechit.com',
-    githubUrl: '#',
+    title: 'XAR AI Discord Bot',
+    description: 'Powerful Discord bot integrated with Gemini 1.5 & 2.0 Flash for interactive AI chat and high-quality image generation.',
+    tags: ['Node.js', 'Discord.js', 'Gemini AI'],
+    image: '/projects/xar-bot.png',
+    liveUrl: '#',
+    githubUrl: 'https://github.com/pkkarn/xar_ai_discord_bot',
   },
   {
-    title: 'Real-time Chat Application',
-    description: 'Full-stack messaging app with WebSocket support, user authentication, and message persistence.',
-    tags: ['Node.js', 'Socket.io', 'MongoDB'],
-    image: 'https://images.unsplash.com/photo-1611746872915-64382b5c76da?w=600&h=400&fit=crop',
+    title: 'Yuga Tracker Extension',
+    description: 'Chrome extension for the GOE framework, providing real-time task tracking and yuga management from the browser.',
+    tags: ['Chrome Extension', 'TypeScript', 'Supabase'],
+    image: '/projects/yuga-ext.png',
     liveUrl: '#',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/pkkarn/yuga_tracker_goe_extension',
   },
   {
-    title: 'E-commerce Dashboard',
-    description: 'Comprehensive admin dashboard for managing products, orders, and analytics with real-time updates.',
-    tags: ['Vue.js', 'Express', 'PostgreSQL'],
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop',
+    title: 'AutoPOST Automation',
+    description: 'AI-driven tool that generates structured HTML blog posts using GPT-4 and automatically publishes them to WordPress.',
+    tags: ['Python', 'OpenAI GPT', 'WordPress API'],
+    image: '/projects/autopost.png',
     liveUrl: '#',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/pkkarn/AutoPOST',
   },
   {
-    title: 'Task Management System',
-    description: 'Kanban-style project management tool with drag-and-drop, team collaboration, and deadline tracking.',
-    tags: ['Vue.js', 'Django', 'REST API'],
-    image: 'https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=600&h=400&fit=crop',
+    title: 'Gemini Calorie Tracker',
+    description: 'Google Sheets integration using Gemini AI to automatically extract and track nutritional data for food entries.',
+    tags: ['Google Apps Script', 'Gemini AI', 'Sheets'],
+    image: '/projects/calorie-tracker.png',
     liveUrl: '#',
-    githubUrl: '#',
-  },
-  {
-    title: 'API Gateway Service',
-    description: 'Microservices API gateway with rate limiting, authentication, and request logging capabilities.',
-    tags: ['Node.js', 'Express', 'Redis'],
-    image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop',
-    liveUrl: '#',
-    githubUrl: '#',
-  },
-  {
-    title: 'Data Analytics Platform',
-    description: 'Business intelligence dashboard with interactive charts, custom reports, and data export features.',
-    tags: ['Python', 'Vue.js', 'PostgreSQL'],
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
-    liveUrl: '#',
-    githubUrl: '#',
-  },
-  {
-    title: 'Social Media Scheduler',
-    description: 'Multi-platform social media management tool with scheduling, analytics, and content calendar.',
-    tags: ['Vue.js', 'Node.js', 'MongoDB'],
-    image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=400&fit=crop',
-    liveUrl: '#',
-    githubUrl: '#',
-  },
-  {
-    title: 'Weather Forecast App',
-    description: 'Beautiful weather application with location-based forecasts, interactive maps, and alerts.',
-    tags: ['Vue.js', 'OpenWeather API', 'CSS3'],
-    image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?w=600&h=400&fit=crop',
-    liveUrl: '#',
-    githubUrl: '#',
-  },
-  {
-    title: 'Code Snippet Manager',
-    description: 'Developer tool for organizing, tagging, and sharing code snippets with syntax highlighting.',
-    tags: ['TypeScript', 'Vue.js', 'Firebase'],
-    image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop',
-    liveUrl: '#',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/pkkarn/calorie_tracker_genai_appscript',
   },
 ];
+
+
 
 const ProjectsSection = () => {
   const { ref, isInView } = useInView(0.05);
@@ -91,13 +53,13 @@ const ProjectsSection = () => {
   return (
     <section id="projects" className="py-24 bg-card relative overflow-hidden">
       {/* Floating background */}
-      <div 
+      <div
         className="absolute w-[600px] h-[600px] rounded-full bg-accent-foreground/5 blur-3xl -bottom-72 -left-72"
         style={{
           transform: `translate(${mousePosition.x * 30}px, ${mousePosition.y * 30}px)`,
         }}
       />
-      
+
       <div ref={ref} className="container mx-auto px-4 relative">
         <div className={`text-center mb-16 ${isInView ? 'animate-fade-up' : 'opacity-0'}`}>
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
@@ -110,7 +72,7 @@ const ProjectsSection = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => (
-            <ProjectCard 
+            <ProjectCard
               key={project.title}
               {...project}
               index={index}
