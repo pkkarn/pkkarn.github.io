@@ -73,9 +73,9 @@ const HeroSection = () => {
           <Button size="lg" className="animate-glow" asChild>
             <a href="#projects">View My Work</a>
           </Button>
-          <Button size="lg" variant="outline" className="border-border bg-card/50 hover:bg-card" asChild>
+          <Button size="lg" variant="outline" className="border-border bg-card/50 hover:bg-card text-foreground" asChild>
             <a href="mailto:p.k.karn786@gmail.com">
-              <Mail className="mr-2 h-4 w-4" />
+              <Mail className="mr-2 h-4 w-4 text-foreground" />
               Get in Touch
             </a>
           </Button>
@@ -91,7 +91,7 @@ const HeroSection = () => {
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-card border border-border hover:border-primary hover:bg-primary/10 transition-all duration-300"
           >
-            <Linkedin className="h-5 w-5" />
+            <Linkedin className="h-5 w-5 text-foreground" />
           </a>
           <a 
             href="https://codechit.com" 
@@ -99,7 +99,7 @@ const HeroSection = () => {
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-card border border-border hover:border-primary hover:bg-primary/10 transition-all duration-300"
           >
-            <span className="text-sm font-mono">✍️</span>
+            <span className="text-sm font-mono text-foreground">✍️</span>
           </a>
         </div>
       </div>
