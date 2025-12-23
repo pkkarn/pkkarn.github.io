@@ -94,7 +94,7 @@ const HeroSection = () => {
             <Linkedin className="h-5 w-5 text-foreground" />
           </a>
           <a
-            href="https://app.logchit.com"
+            href="https://blog.logchit.com"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-card border border-border hover:border-primary hover:bg-primary/10 transition-all duration-300"
