@@ -46,7 +46,7 @@ const ProjectCard = ({
 
       {/* Content */}
       <div className="p-6">
-        <h3 className="text-xl font-bold mb-2 group-hover:text-primary transition-colors duration-300">
+        <h3 className="text-xl font-bold mb-2 text-foreground group-hover:text-primary transition-colors duration-300">
           {title}
         </h3>
         <p className="text-muted-foreground text-sm mb-4 line-clamp-2">
@@ -68,7 +68,7 @@ const ProjectCard = ({
         {/* Actions */}
         <div className="flex gap-2">
           {liveUrl && (
-            <Button size="sm" variant="outline" asChild>
+            <Button size="sm" variant="outline" className="text-foreground border-border hover:text-primary" asChild>
               <a href={liveUrl} target="_blank" rel="noopener noreferrer">
                 <ExternalLink className="h-4 w-4 mr-1" />
                 Live
@@ -76,7 +76,7 @@ const ProjectCard = ({
             </Button>
           )}
           {githubUrl && (
-            <Button size="sm" variant="ghost" asChild>
+            <Button size="sm" variant="ghost" className="text-foreground hover:text-primary" asChild>
               <a href={githubUrl} target="_blank" rel="noopener noreferrer">
                 <Github className="h-4 w-4 mr-1" />
                 Code

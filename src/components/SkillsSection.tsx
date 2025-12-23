@@ -36,7 +36,7 @@ const SkillsSection = () => {
       <div ref={ref} className="container mx-auto px-4">
         <div className={`text-center mb-16 ${isInView ? 'animate-fade-up' : 'opacity-0'}`}>
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Skills & <span className="text-gradient">Technologies</span>
+            <span className="text-foreground">Skills &</span> <span className="text-gradient">Technologies</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
             Tools and technologies I work with to bring ideas to life
@@ -58,7 +58,7 @@ const SkillsSection = () => {
                 className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-20 transition-opacity duration-300"
                 style={{ backgroundColor: `hsl(${skill.color})` }}
               />
-              <span className="relative font-medium">{skill.name}</span>
+              <span className="relative font-medium text-foreground">{skill.name}</span>
             </div>
           ))}
         </div>
