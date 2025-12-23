@@ -62,8 +62,7 @@ const HeroSection = () => {
           className="text-xl md:text-2xl text-muted-foreground mb-8 animate-fade-up [animation-fill-mode:forwards]"
           style={{ animationDelay: '0.6s', opacity: 0 }}
         >
-          An enthusiast who loves <span className="text-primary">creating</span> and{' '}
-          <span className="text-accent-foreground">destroying</span> things
+          A software developer with more than 5 years of experience, currently churning <span className="text-primary">GenAI implementation</span> along with <span className="text-accent-foreground">pretty cool stuff</span> that you can checkout in socials or github. you know <span className="text-primary">something fancy</span>
         </p>
 
         <div
