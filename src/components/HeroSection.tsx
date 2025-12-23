@@ -62,7 +62,7 @@ const HeroSection = () => {
           className="text-xl md:text-2xl text-muted-foreground mb-8 animate-fade-up [animation-fill-mode:forwards]"
           style={{ animationDelay: '0.6s', opacity: 0 }}
         >
-          Software Engineer (5+ years) specializing in <span className="text-primary">GenAI implementations</span> and crafting <span className="text-accent-foreground">high-end digital experiences</span>. Shipping something fancy, daily.
+          Software Developer with <span className="text-primary">5+ years</span> of experience building robust <span className="text-primary">web applications</span>. Currently pushing the frontier of <span className="text-accent-foreground">GenAI integration</span> and advanced technical exploration.
         </p>
 
         <div
