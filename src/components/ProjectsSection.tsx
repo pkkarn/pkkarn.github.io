@@ -11,6 +11,14 @@ const projects = [
     githubUrl: 'https://github.com/pkkarn/GOE_SUPABASE',
   },
   {
+    title: 'LogChit Blog',
+    description: 'A premium, high-tech personal blog built with Next.js and TypeScript, featuring a glassmorphism design and automated CI/CD pipeline.',
+    tags: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+    image: '/projects/logchit.png',
+    liveUrl: 'https://logchit.com',
+    githubUrl: 'https://github.com/pkkarn/logchit.com',
+  },
+  {
     title: 'XAR AI Discord Bot',
     description: 'Powerful Discord bot integrated with Gemini 1.5 & 2.0 Flash for interactive AI chat and high-quality image generation.',
     tags: ['Node.js', 'Discord.js', 'Gemini AI'],
