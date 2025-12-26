@@ -3,6 +3,14 @@ import ProjectCard from './ProjectCard';
 
 const projects = [
   {
+    title: 'GraphNote Studio',
+    description: 'A modern, high-performance application for managing notes and knowledge graphs with a sleek, interactive interface.',
+    tags: ['React', 'TypeScript', 'Supabase', 'Tailwind CSS'],
+    image: '/projects/graphnote.png',
+    liveUrl: '#',
+    githubUrl: 'https://github.com/pkkarn/grapchit-note-studio',
+  },
+  {
     title: 'Game of Evolution (GOE)',
     description: 'A comprehensive framework to master discipline and consistency through a gamified system of "yugas" and target points.',
     tags: ['React', 'Supabase', 'Tailwind CSS'],
